@@ -1,10 +1,14 @@
+import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
     container: {
-        width: '21.875rem',
-        height: '8.8125rem',
+        width: '80vw',
+        height: '20vh',
         backgroundColor: '#F2E8CF',
-        borderRadius: '0.625rem',
+        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
     },
 });
+
+export default styles;
